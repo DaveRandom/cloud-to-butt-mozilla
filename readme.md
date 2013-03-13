@@ -5,7 +5,7 @@ Derived from the work of Steven Frank's [cloud-to-butt](https://github.com/panic
 
 ## Installing
 
-Download [cloud-to-butt-mozilla.xpi](https://github.com/DaveRandom/cloud-to-butt-mozilla/blob/master/cloud-to-butt-mozilla.xpi?raw=true)
+Download [CloudToButt.xpi](https://github.com/DaveRandom/cloud-to-butt-mozilla/blob/master/CloudToButt.xpi?raw=true)
 
 
 ## Building
