@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+
+<!DOCTYPE overlay SYSTEM "chrome://cloud-to-butt/locale/cv-pls.dtd">
+
+<overlay id="cv-pls-browser-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="text/javascript" src="chrome://cloud-to-butt/content/cloud-to-butt.js" />
+</overlay>

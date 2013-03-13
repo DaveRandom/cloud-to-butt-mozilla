@@ -1,0 +1,3 @@
+content	cloud-to-butt	chrome/content/	contentaccessible=yes
+
+overlay	chrome://browser/content/browser.xul	chrome://cloud-to-butt/content/main.xul
