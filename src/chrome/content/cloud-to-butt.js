@@ -27,14 +27,25 @@
         }
     }
     
+    function preserveCapitalization(str, r)
+    {
+    	var split = str.split(' ');
+    	var rsplit = r.split(' ');
+    	
+    	for(var i = 0; i < split.length; i++) {
+    		rsplit[i] = split[i].toUpperCase() == split[i] ? rsplit[i].toUpperCase() :
+    			split[i][0].toUpperCase() == split[i][0] ? rsplit[i][0].toUpperCase() + rsplit[i].slice(1) : rsplit[i];
+    	}
+    	
+    	return rsplit.join(' ');
+    }
+    
     function handleText(textNode)
     {
         var v = textNode.nodeValue;
     
-        v = v.replace(/\bThe Cloud\b/g, "My Butt");
-        v = v.replace(/\bThe cloud\b/g, "My butt");
-        v = v.replace(/\bthe Cloud\b/g, "my Butt");
-        v = v.replace(/\bthe cloud\b/g, "my butt");
+        v = v.replace(/\bthe cloud\b/gi, function(a) { return preserveCapitalization(a, "my butt"); });
+        v = v.replace(/\bcloud\b/gi, function(a) { return preserveCapitalization(a, "butt") });
     
         textNode.nodeValue = v;
     }
