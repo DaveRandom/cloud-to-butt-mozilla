@@ -72,4 +72,4 @@ function handleText(textNode) {
     }
 
     window.addEventListener('load', windowLoadHandler);
-());
+}());
