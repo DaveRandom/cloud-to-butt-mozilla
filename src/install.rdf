@@ -3,18 +3,18 @@
   <RDF:Description about="urn:mozilla:install-manifest">
 
     <!-- GUID and type -->
-    <em:id>cloud-to-butt@github.com</em:id>
+    <em:id>cloud-to-butt-mozilla@github.com</em:id>
     <em:type>2</em:type>
 
     <!-- Extension details -->
     <em:name>Cloud To Butt</em:name>
-    <em:description>Replaces the text 'the cloud' with 'my butt'.</em:description>
-    <em:creator>Steven Frank</em:creator>
-    <em:developer>Chris Wright</em:developer>
-    <em:homepageURL>https://github.com/DaveRandom/cloud-to-butt-mozilla</em:homepageURL>
+    <em:description>Replaces the text 'cloud' with 'butt'.</em:description>
+    <em:creator>Dan Bunyard</em:creator>
+    <em:developer>Dan Bunyard</em:developer>
+    <em:homepageURL>https://github.com/danodemano/cloud-to-butt-mozilla</em:homepageURL>
 
     <!-- Current version -->
-    <em:version>1.0</em:version>
+    <em:version>1.1</em:version>
 
     <!-- Firefox meta info -->
     <em:targetApplication>
