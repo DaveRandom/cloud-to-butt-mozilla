@@ -60,4 +60,16 @@ function handleText(textNode) {
   }
 	textNode.nodeValue = v;
 }
+
+    function windowLoadHandler()
+    {
+        // Dear Mozilla: I hate you for making me do this.
+        window.removeEventListener('load', windowLoadHandler);
+
+        document.getElementById('appcontent').addEventListener('DOMContentLoaded', function(e) {
+            walk(e.originalTarget.body);
+        });
+    }
+
+    window.addEventListener('load', windowLoadHandler);
 ());
